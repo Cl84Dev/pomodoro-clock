@@ -85,9 +85,8 @@ function App() {
   }
   
   const decreaseSession = () => {
-    if (sessionMinute < 1 && minute < 1) {
-      setMinute(prevMinute => prevMinute = 1)
-      setSessionMinute(prevSessionMinute => prevSessionMinute = 1)
+    if (sessionMinute === 1 && minute === 1) {
+    
     } else {
       setMinute(prevMinute => prevMinute - 1)
       setSessionMinute(prevSessionMinute => prevSessionMinute - 1)

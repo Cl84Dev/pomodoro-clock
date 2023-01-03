@@ -122,7 +122,7 @@ function App() {
       <div className='d-flex justify-content-evenly border rounded bg-white mb-3'>
 
         <div className='d-flex flex-column align-items-center p-3'>
-          <div id='session-label' className='text-center'>Session Lenght</div>
+          <div id='session-label' className='text-center'>Session Length</div>
           <i className="button bi bi-caret-up fs-3 bg-primary rounded text-white px-2" id='session-increment' onClick={increaseSession}></i>
           <div className='number fs-3' id='session-length'>{sessionMinute}</div>
           <i className="button bi bi-caret-down fs-3 bg-primary rounded text-white px-2" id='session-decrement' onClick={decreaseSession}></i>
